@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         print("kamal pc")
         self.setNavigation()
+        self.setNavigationFourth()
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,6 +27,8 @@ class ViewController: UIViewController {
         print("newBranchCreate   kamal")
     }
 
-
+    func setNavigationFourth()  {
+        print("newBranchCreate  Fourth kamal")
+    }
 }
 
